@@ -1,0 +1,9 @@
+0: iconst_1
+1: iconst_2
+2: iadd
+3: iconst_3
+4: imul
+5: iconst_4
+6: isub
+7: print
+10: return

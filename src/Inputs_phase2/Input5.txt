@@ -1,0 +1,35 @@
+0: bipush        100
+2: istore_1
+3: iconst_0
+4: istore_2
+5: iconst_0
+6: istore_3
+7: iconst_0
+8: istore        4
+10: iload         4
+12: iload_1
+13: if_icmpgt     46
+16: iload         4
+18: iconst_3
+19: irem
+20: ifne          29
+23: iinc          2, 1
+26: goto          40
+29: iload         4
+31: bipush        7
+33: irem
+34: ifne          40
+37: iinc          3, 1
+40: iinc          4, 1
+43: goto          10
+46: iload_2
+47: print
+50: iload_3
+51: print
+54: iload_1
+55: iload_2
+56: isub
+57: iload_3
+58: isub
+59: print
+62: return

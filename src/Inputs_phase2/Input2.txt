@@ -1,0 +1,35 @@
+0: iconst_1
+1: istore_1
+2: iconst_2
+3: istore_2
+4: iconst_3
+5: istore_3
+6: iconst_4
+7: istore        4
+9: iconst_5
+10: istore        5
+12: iload_1
+13: iload_2
+14: iadd
+15: iload_3
+16: iadd
+17: iload         4
+19: iadd
+20: iload         5
+22: iadd
+23: istore        6
+25: iload         6
+27: print
+30: iload_1
+31: iload_2
+32: imul
+33: iload_3
+34: imul
+35: iload         4
+37: imul
+38: iload         5
+40: imul
+41: istore        6
+43: iload         6
+45: print
+48: return

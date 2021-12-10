@@ -1,0 +1,12 @@
+0: iconst_2
+1: istore_1
+2: iconst_1
+3: istore_2
+4: iload_2
+5: iload_1
+6: if_icmpgt     19
+9: iload_2
+10: print
+13: iinc          2, 1
+16: goto          4
+19: return

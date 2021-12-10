@@ -1,0 +1,39 @@
+0: iconst_2
+1: bipush         8
+3: imul
+4: bipush         5
+6: iadd
+7: bipush         6
+9: irem
+10: print
+13: iconst_2
+14: bipush         8
+16: imul
+17: iconst_3
+18: idiv
+19: iconst_1
+20: isub
+21: bipush         6
+23: iadd
+24: iconst_5
+25: iconst_4
+26: imul
+27: isub
+28: print
+31: bipush         7
+33: iconst_2
+34: irem
+35: bipush         8
+37: iconst_3
+38: bipush         7
+40: isub
+41: idiv
+42: bipush         6
+44: iconst_5       
+45: iconst_4         
+46: imul
+47: isub
+48: imul
+49: iadd
+50: print
+53: return

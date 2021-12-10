@@ -1,0 +1,19 @@
+0: iconst_1
+1: istore_1
+2: iconst_2
+3: istore_2
+4: iconst_3
+5: istore_3
+6: iload_3
+7: iload_1
+8: iload_2
+9: iadd
+10: if_icmple     20
+13: bipush        100
+15: istore        4
+17: goto          24
+20: bipush        -100
+22: istore        4
+24: iload         4
+26: print
+29: return

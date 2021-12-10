@@ -1,0 +1,37 @@
+0: iconst_4
+1: istore_1
+2: iconst_5
+3: istore_2
+4: iload_1
+5: iload_1
+6: imul
+7: iconst_2
+8: iload_2
+9: imul
+10: iadd
+11: iconst_5
+12: isub
+13: istore_3
+14: iload_3
+15: print
+18: iload_3
+19: iload_3
+20: idiv
+21: istore_3
+22: iload_3
+23: print
+26: bipush        -128
+28: istore_1
+29: bipush        127
+31: istore_2
+32: iload_1
+33: iload_2
+34: imul
+35: iload_1
+36: iload_2
+37: imul
+38: imul
+39: istore_3
+40: iload_3
+41: print
+44: return
